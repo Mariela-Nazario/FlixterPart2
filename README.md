@@ -2,7 +2,7 @@
 
 # Android Project 3 - *Movie App*
 
-Submitted by: **Mariela Nazario*
+Submitted by: *Mariela Nazario*
 
 **Movie App** is a movie browsing app that allows users to browse movies currently playing in theaters.
 
