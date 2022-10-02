@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.core.widget.ContentLoadingProgressBar
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.codepath.asynchttpclient.AsyncHttpClient
 import com.codepath.asynchttpclient.RequestParams
@@ -34,7 +35,7 @@ class MovieFragment : Fragment(), OnListFragmentInteractionListener{
         val progressBar = view.findViewById<View>(R.id.progess) as ContentLoadingProgressBar
         val recyclerView = view.findViewById<View>(R.id.list) as RecyclerView
         val context = view.context
-        recyclerView.layoutManager = GridLayoutManager(context, 1)
+        recyclerView.layoutManager = GridLayoutManager(context,1)
         updateAdapter(progressBar, recyclerView)
         return view
     }
@@ -105,7 +106,7 @@ class MovieFragment : Fragment(), OnListFragmentInteractionListener{
 
 
     override fun onItemClick(item: Movie) {
-        TODO("Not yet implemented")
+        Toast.makeText(context, "test: " + item.title, Toast.LENGTH_LONG).show()
     }
 
 
