@@ -1,5 +1,5 @@
 
-=======
+
 # Android Project 3 - *Movie App*
 
 Submitted by: **Mariela Nazario*
@@ -60,4 +60,4 @@ Describe any challenges encountered while building the app.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
->>>>>>> 34ae5b5886a4e44e079e2b0dbd8606937a905688
+>>>>>>> 
