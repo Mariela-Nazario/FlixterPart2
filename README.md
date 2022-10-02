@@ -1,6 +1,4 @@
-"# Flixter" 
-<<<<<<< HEAD
-"# Flixter-Part1" 
+
 =======
 # Android Project 3 - *Movie App*
 
