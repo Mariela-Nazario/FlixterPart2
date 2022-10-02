@@ -1,10 +1,8 @@
-"# Flixter" 
-<<<<<<< HEAD
-"# Flixter-Part1" 
-=======
+
+
 # Android Project 3 - *Movie App*
 
-Submitted by: **Mariela Nazario*
+Submitted by: *Mariela Nazario*
 
 **Movie App** is a movie browsing app that allows users to browse movies currently playing in theaters.
 
@@ -34,10 +32,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/ftxawDRyIyrUiziMar/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with giphy
+Video Created with XRecorder
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -62,4 +61,4 @@ Describe any challenges encountered while building the app.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
->>>>>>> 34ae5b5886a4e44e079e2b0dbd8606937a905688
+>>>>>>> 
