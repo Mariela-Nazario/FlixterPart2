@@ -1,0 +1,2 @@
+com/mnazari2/moviesapp/BuildConfig.java
+ com.mnazari2.moviesapp.BuildConfig
