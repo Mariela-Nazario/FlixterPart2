@@ -1,5 +1,6 @@
 package com.mnazari2.moviesapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -49,7 +50,7 @@ class MovieFragment : Fragment(), OnListFragmentInteractionListener{
         params["api-key"] = API_KEY
 
         client[
-                "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed&language=en-US&page=1",
+                "https://api.themoviedb.org/3/movie/top_rated?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed&language=en-US&page=1",
                 params,
                 object : JsonHttpResponseHandler()
 
@@ -73,6 +74,7 @@ class MovieFragment : Fragment(), OnListFragmentInteractionListener{
                 val gson = Gson()
                 val arrayBookType = object : TypeToken<List<Movie>>() {}.type
                 val models : List<Movie> = gson.fromJson(booksRawJSON, arrayBookType)
+
                 recyclerView.adapter = MovieRecyclerViewAdapter(models, this@MovieFragment)
 
 
@@ -106,7 +108,12 @@ class MovieFragment : Fragment(), OnListFragmentInteractionListener{
 
 
     override fun onItemClick(item: Movie) {
-        Toast.makeText(context, "test: " + item.title, Toast.LENGTH_LONG).show()
+        val intent = Intent(this.context,DetailActivity::class.java)
+
+
+        val jsonString = Gson().toJson(item)
+        intent.putExtra("MovieExtra",jsonString)
+        this.context?.startActivity(intent)
     }
 
 

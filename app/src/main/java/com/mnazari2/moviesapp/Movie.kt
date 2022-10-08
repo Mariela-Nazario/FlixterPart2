@@ -17,4 +17,8 @@ class Movie {
     @JvmField
     @SerializedName("backdrop_path")
     var backdrop_path: String? = null
+
+    @JvmField
+    @SerializedName("id")
+    var id: String? = null
 }
